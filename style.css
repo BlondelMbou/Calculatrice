@@ -13,7 +13,7 @@ body
     font-family: sans-serif;
     background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
 }
-.calculatrice
+ .calculatrice
 {
     background-color: black;
     display: flex;
@@ -21,6 +21,7 @@ body
     padding: 15px;
     border-radius: 5px;
     box-shadow:0 5px black; 
+    
 }
 .ecran
 {
@@ -32,21 +33,25 @@ body
     margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
-    justify-content:flex flex-end;
+    justify-content:flex-end;
     align-items: flex-end;
     padding: 5px;
     font-size: 25px;
+    
+    
 }
-.touches
+ .touches 
 {
     display: grid;
     grid-template-columns: repeat(4, 50px);
-    grid-template-rows: repeat(5, 50px);
+    grid-template-rows: repeat(7, 50px);
     grid-gap: 7px;
-    border: 2px solid cornsilk;
-    font-display: relative;
-    border-radius: 12px;
+    /* border: 2px solid cornsilk; */
+   font-display: relative;
+    border-radius: 20px;
+    font-size: 20px;
     
+
 }
 .button
 {
@@ -54,10 +59,11 @@ body
     outline: none;
     border-radius:  5px;
     background-color: #f7f7f7;
-    box-shadow:0 3px #a8a8a8;
+    box-shadow:0 10px #a8a8a8;
     font-size: 18px;
-    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
- background-blend-mode: normal, lighten, soft-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button.active
 {
@@ -66,14 +72,193 @@ body
 }
 button[data-key="04"]
 {
-    grid-column: span 2;
-    background-color: blue;
+    /* grid-column: span 2; */
+    background-color: blue; 
     font-weight: bold;
     color: cornsilk;
     font-size: 40px;
-    font-display: center;
+    font-display: flex;
+    /*justify-content: center;*/
+    /* align-items: center; */
+    /*text-align: justify;*/
+    /*padding-right: 25px;*/
 }
-button[data-key="12"]
+button[data-key="320"]
 {
     background-color: orange;
+    align-items: center;
+    justify-items: center;
 }
+button[data-key="69"]
+{
+    font-size: 20px;
+    /*font-weight: bold;*/
+    /* font-display: center; */
+}
+.button[data-key="156"].hover
+{
+    color: rgb(231, 13, 13);
+    background-color: black;
+}
+button[data-key="156"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+button[data-key ="144"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key="714"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+button[data-key ="280"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key="190"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+button[data-key ="350"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+button[data-key ="550"]
+{
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+}
+button[data-key ="12"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="9"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="15"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="11"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="42"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="36"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="98"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="147"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="32"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="28"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="19"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="35"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="55"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="69"]
+{
+    align-items: center;
+    justify-items: center;
+    font-size: x-large;
+}
+
+button[data-key ="478"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="690"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="45"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="78"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+button[data-key ="154"]
+{
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
